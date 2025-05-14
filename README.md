@@ -10,3 +10,9 @@ This program helps students search for past paper questions based on the topic, 
 
 > until now, this is windows only, still havent figured out the mac version..
 > also database is only from 2024 pastpapers
+---
+### How to use
+1) click the zip file
+2) click the download button
+3) make sure the database.csv and the .exe files are in the same folder
+
