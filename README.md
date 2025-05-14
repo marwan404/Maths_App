@@ -1,57 +1,53 @@
-📘 Math Topic Question Finder 🔍
-Your personal IGCSE-style math past paper search engine.
+# 📘 Math Topic Question Referral App
 
-Hey everyone! After hours of planning, coding, debugging, and building a custom database — I'm proud to finally release my new app: Math Topic Question Finder. 🎉
+Welcome! This is a simple C++ console app that helps students quickly **find IGCSE-style math past paper questions** based on topic.
 
-🧠 What It Does
-This app helps students find past paper questions by topic, pulled from a custom-made database. Just select the topic (like "algebra", "trigonometry", "statistics", etc.), and the app instantly shows:
+---
 
-📅 Year
+## 🔍 What It Does
 
-📚 Session
+You select a topic from a menu (like Algebra, Trigonometry, Statistics, etc.), and the app will display:
 
-🧾 Variant
+- ✅ Year  
+- ✅ Session  
+- ✅ Variant  
+- ✅ Question Number  
+- ✅ Marks  
 
-🧮 Question Number
+All data is pulled from a custom-built CSV database (2024 papers only till now).
 
-🔢 Marks
+---
 
-Super helpful for revision, topic targeting, or studying smarter before exams!
+## 🤔 Why I Built It
 
-⚙️ Features
-✅ Easy-to-use console interface
-✅ Built using C++ with enum-based topic selection
-✅ Reads from a .csv database you can extend anytime
-✅ Offline and fast — no internet required
-✅ Designed for students, by a student 💪
+As a student, I found myself constantly flipping through past papers just to find specific types of questions for revision. So I decided to build something that could **do it automatically**.
 
-📦 Download
-➡️ Click here to download the latest version
+I wrote all the code myself in C++, learned how to handle CSV parsing, flowcharts, enums, and more — no tutorials, just learning by doing 💻✨
 
-Just unzip the file, run the .exe, and start finding questions by topic in seconds.
+---
 
-💻 Tech Stack
-Language: C++
+## 🛠️ How It Works
 
-File format: CSV
+1. Program prompts you to pick a topic.
+2. It searches through `database.csv`.
+3. Displays all relevant questions in a neat format.
 
-Built in: Visual Studio
+---
 
-Tested on: Windows
+## 💾 Download
 
-🧰 Database Details
-The CSV includes fields like:
+👉 Download using the Zip file above
 
-Year	Session	Variant	Question	Marks	Topic
+> ✅ Windows executable available  
+> 📁 Just drop your `database.csv` next to the `.exe` and you're good to go!
 
-All data was manually compiled from 2024 math past papers. More will be added soon!
+---
 
-✍️ Final Thoughts
-This project took a lot of learning, tweaking, and self-discipline — from designing flowcharts to building the database and writing a clean, understandable codebase. I wanted to make something genuinely helpful for students preparing for their math exams.
+## 🧠 Final Thoughts
 
-Let me know what you think, and feel free to fork, improve, or use it as inspiration for your own projects. 😄
+This app helped me make my own revision more efficient, and I hope it does the same for you.  
+Thanks for checking it out — and happy studying!
 
-Thanks for reading — and happy revising! 🧠📚
-— Marwan
+---
 
-Let me know if you want a custom Reddit or Discord version too — or if you’d like to showcase your GitHub stats or a GIF demo!
+**Made with ❤️ and C++ by Marwan**
