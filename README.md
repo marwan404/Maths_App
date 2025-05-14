@@ -36,10 +36,9 @@ I wrote all the code myself in C++, learned how to handle CSV parsing, flowchart
 
 ## 💾 Download
 
-👉 Download using the Zip file above
+👉 Download the .exe file above
 
 > ✅ Windows executable available  
-> 📁 Just drop your `database.csv` next to the `.exe` and you're good to go!
 
 ---
 
